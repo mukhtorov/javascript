@@ -253,4 +253,4 @@
 
 // Kirish(101,'Umar') //=> hush kelibsiz
 // Kirish(10,'Umar')  // => parol yoki name xato
-// Kirish(101,'Ali')   // => parol yoki name xato
+// Kirish(101,'Ali')   // => parol yoki name xato...
