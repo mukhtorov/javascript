@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hi JS</h1>
+    <h1 id="gpa"></h1>
+    <button onclick="getData()">click me</button>
+    <script>
+      function getData() {
+        console.log("started...");
+        fetch("https://houzing-app.herokuapp.com/api/v1/houses/list")
+          .then((res) => res.json())
+          .then((res) => console.log(res));
+        console.log("finished...");
+      }
+    </script>
+  </body>
+</html>
