@@ -1,18 +1,3 @@
-// const data = new Promise((resolve) => {
-//   setTimeout(() => {
-//     resolve("worked");
-//   }, 1000);
-// });
-
-// const getData = async () => {
-//   let res = await data;
-//   console.log(res, "test");
-// };
-
-// getData();
-// console.log("working");
-
-// yield, return
 function* getData(param) {
   let i = users.length;
   while (true) {
@@ -21,22 +6,6 @@ function* getData(param) {
 }
 
 const generator = getData();
-
-// console.log(generator.next());
-// console.log(generator.next(3));
-// console.log(generator.next(4));
-
-// const gr = getData();
-
-// for (vl of generator) {
-//   console.log(vl);
-// }
-
-// console.log([...generator]);
-
-// console.log(generator.next());
-// console.log(generator.next());
-// console.log(gr.next());
 
 let users = [
   { id: 1, name: "Eshmat1" },

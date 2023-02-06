@@ -1,0 +1,8 @@
+.parent {
+  display: flex;
+}
+
+#dataList,
+#single {
+  flex: 1;
+}

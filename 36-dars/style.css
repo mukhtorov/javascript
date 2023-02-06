@@ -1,0 +1,11 @@
+.victom {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  opacity: 0;
+}
+
+#money {
+  position: absolute;
+  top: 50px;
+}

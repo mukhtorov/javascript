@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.box {
+  width: 70px;
+  height: 150px;
+  background-color: blue;
+  overflow: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  height: 46px;
+  position: sticky;
+  margin-top: 20px;
+  top: 0;
+  /* box-shadow: 19px 12px 20px 0px; */
+  transition: all 0.7s;
+}
+
+.item {
+  color: white;
+}
